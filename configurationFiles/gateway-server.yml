@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: test-route
+          predicates:
+            - Path=/api/test/**
+          uri: lb://TEST-SERVICE
+          filters:
+            - RewritePath=/api/test(?<segment>.*), $\{segment}
+            - RewriteLocationResponseHeader=AS_IN_REQUEST, Location, localhost:8080/api/test

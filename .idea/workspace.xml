@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b187fe-aad2-4536-8df6-072887702ede" name="Changes" comment="change file name">
+    <list default="true" id="b9b187fe-aad2-4536-8df6-072887702ede" name="Changes" comment="change search path">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationServer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationServer/src/main/resources/configurationFiles/application-development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFiles/application-development.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationServer/src/main/resources/configurationFiles/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFiles/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationServer/src/main/resources/configurationFiles/discovery-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFiles/discovery-server.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-discover/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server-discover/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/home/skynet/IdeaProjects/spring-cloud-courseGIT/ConfigurationServer/src/main/resources/configurationFiles",
+    "last_opened_file_path": "/home/skynet/IdeaProjects/spring-cloud-courseGIT/configurationFiles",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +68,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configurationFiles" />
       <recent name="$PROJECT_DIR$/ConfigurationServer/src/main/resources/configurationFiles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -99,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694515835093</updated>
       <workItem from="1694515836150" duration="221000" />
-      <workItem from="1694520888128" duration="1781000" />
+      <workItem from="1694520888128" duration="2188000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -133,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694522253189</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change search path">
+      <option name="closed" value="true" />
+      <created>1694522690976</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694522690976</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +163,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="add eureka server" />
     <MESSAGE value="change file name" />
-    <option name="LAST_COMMIT_MESSAGE" value="change file name" />
+    <MESSAGE value="change search path" />
+    <option name="LAST_COMMIT_MESSAGE" value="change search path" />
   </component>
 </project>
