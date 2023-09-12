@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b187fe-aad2-4536-8df6-072887702ede" name="Changes" comment="add gateway server">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b9b187fe-aad2-4536-8df6-072887702ede" name="Changes" comment="add test">
+      <change beforePath="$PROJECT_DIR$/configurationFiles/test-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFiles/test-server.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694515835093</updated>
       <workItem from="1694515836150" duration="221000" />
-      <workItem from="1694520888128" duration="2490000" />
+      <workItem from="1694520888128" duration="2584000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -174,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694523148129</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add test">
+      <option name="closed" value="true" />
+      <created>1694523459350</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694523459350</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +201,7 @@
     <MESSAGE value="change file name" />
     <MESSAGE value="change search path" />
     <MESSAGE value="add gateway server" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gateway server" />
+    <MESSAGE value="add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test" />
   </component>
 </project>
