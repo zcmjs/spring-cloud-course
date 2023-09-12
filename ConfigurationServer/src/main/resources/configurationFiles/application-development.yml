@@ -1,0 +1,10 @@
+spring:
+  jackson:
+    default-property-inclusion: always
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone:
+        http://localhost:8761
