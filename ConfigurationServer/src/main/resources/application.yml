@@ -6,6 +6,6 @@ spring:
       server:
         git:
           uri: https://github.com/zcmjs/spring-cloud-course
-          search-paths: configuration-files
+          search-paths: configurationFiles #sciezka gdzie jest umieszczony katalog z folderem z plikiem
           try-master-branch: false
 
