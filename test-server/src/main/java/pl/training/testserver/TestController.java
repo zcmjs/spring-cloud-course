@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/test")
 public class TestController {
 
-    @Value("${systemValue}")
+    @Value("${prop1}")
     private String prop1;
 
     @Value("${prop2}")

@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b187fe-aad2-4536-8df6-072887702ede" name="Changes" comment="add test2">
-      <change afterPath="$PROJECT_DIR$/.idea/kubernetes-settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b9b187fe-aad2-4536-8df6-072887702ede" name="Changes" comment="fix test server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configurationFiles/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFiles/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configurationFiles/test-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFiles/test-server.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-serive/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-serive/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-serive/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-serive/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-serive/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-serive/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-serive/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-serive/src/main/java/pl/training/testserive/TestSeriveApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-serive/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-serive/src/test/java/pl/training/testserive/TestSeriveApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-server/src/main/java/pl/training/testserver/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-server/src/main/java/pl/training/testserver/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayServerApplication">
+  <component name="RunManager" selected="Spring Boot.TestServerApplication">
     <configuration name="ConfigurationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="configuration-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pl.traning.configurationServer.ConfigurationServerApplication" />
@@ -141,13 +124,6 @@
     <configuration name="ServerDiscoverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="server-discover" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pl.training.serverdiscover.ServerDiscoverApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSeriveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="test-serive.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.training.testserive.TestSeriveApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,7 +146,7 @@
       <updated>1694515835093</updated>
       <workItem from="1694515836150" duration="221000" />
       <workItem from="1694520888128" duration="3294000" />
-      <workItem from="1694587107238" duration="1171000" />
+      <workItem from="1694587107238" duration="1835000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -236,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694523540898</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix test server">
+      <option name="closed" value="true" />
+      <created>1694588315734</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694588315734</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +245,7 @@
     <MESSAGE value="add gateway server" />
     <MESSAGE value="add test" />
     <MESSAGE value="add test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test2" />
+    <MESSAGE value="fix test server" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix test server" />
   </component>
 </project>
