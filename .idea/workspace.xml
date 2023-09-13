@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b187fe-aad2-4536-8df6-072887702ede" name="Changes" comment="fix test server">
+    <list default="true" id="b9b187fe-aad2-4536-8df6-072887702ede" name="Changes" comment="fix prop in test server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-server/src/main/java/pl/training/testserver/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-server/src/main/java/pl/training/testserver/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configurationFiles/test-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFiles/test-server.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,7 @@
       <updated>1694515835093</updated>
       <workItem from="1694515836150" duration="221000" />
       <workItem from="1694520888128" duration="3294000" />
-      <workItem from="1694587107238" duration="1835000" />
+      <workItem from="1694587107238" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -220,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694588315734</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix prop in test server">
+      <option name="closed" value="true" />
+      <created>1694588967915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694588967915</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +255,7 @@
     <MESSAGE value="add test" />
     <MESSAGE value="add test2" />
     <MESSAGE value="fix test server" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix test server" />
+    <MESSAGE value="fix prop in test server" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix prop in test server" />
   </component>
 </project>

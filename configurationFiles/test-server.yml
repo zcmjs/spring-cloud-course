@@ -1,1 +1,3 @@
-prop2 : 6661
+server:
+  port: 8081
+prop2: 6661
