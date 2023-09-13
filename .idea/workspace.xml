@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b187fe-aad2-4536-8df6-072887702ede" name="Changes" comment="fix prop in test server">
+    <list default="true" id="b9b187fe-aad2-4536-8df6-072887702ede" name="Changes" comment="fix server dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configurationFiles/test-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFiles/test-server.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configurationFiles/gateway-server.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationFiles/gateway-server.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TestServerApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayServerApplication">
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="ConfigurationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="configuration-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pl.traning.configurationServer.ConfigurationServerApplication" />
@@ -136,6 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -147,7 +158,7 @@
       <updated>1694515835093</updated>
       <workItem from="1694515836150" duration="221000" />
       <workItem from="1694520888128" duration="3294000" />
-      <workItem from="1694587107238" duration="1994000" />
+      <workItem from="1694587107238" duration="4509000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -229,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694588967915</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix server dependencies">
+      <option name="closed" value="true" />
+      <created>1694589169986</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694589169986</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +275,7 @@
     <MESSAGE value="add test2" />
     <MESSAGE value="fix test server" />
     <MESSAGE value="fix prop in test server" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix prop in test server" />
+    <MESSAGE value="fix server dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix server dependencies" />
   </component>
 </project>
