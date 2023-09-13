@@ -3,3 +3,5 @@ eureka:
     should-enforce-registration-at-init: true
   instance:
     prefer-ip-address: true
+
+prop1: Super Program Kolego!

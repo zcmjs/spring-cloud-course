@@ -1,13 +1,13 @@
-package pl.training.testserive;
+package pl.training.testserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestSeriveApplication {
+public class TestServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestSeriveApplication.class, args);
+        SpringApplication.run(TestServerApplication.class, args);
     }
 
 }

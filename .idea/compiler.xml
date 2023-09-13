@@ -2,12 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="server-discover" />
         <module name="gateway-server" />
+        <module name="test-server" />
         <module name="configuration-server" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
@@ -18,12 +20,16 @@
         <module name="test-serive.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test-serive" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="configuration-server" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
       <module name="server-discover" options="-parameters" />
+      <module name="test-server" options="-parameters" />
     </option>
   </component>
 </project>
