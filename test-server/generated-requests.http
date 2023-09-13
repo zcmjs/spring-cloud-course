@@ -1,0 +1,22 @@
+###
+POST http://localhost:8080/orders
+Content-Type: application/json
+
+{
+    "description": "ddd"
+}
+
+<> 2023-09-09T132042.202.json
+
+###
+GET  http://localhost:8080/api/test/test
+
+<> 2023-09-13T103454.200.txt
+<> 2023-09-13T103131.503.json
+<> 2023-09-13T093006.404.json
+<> 2023-09-13T092957.404.json
+
+###
+GET  http://localhost:8081/test
+
+<> 2023-09-13T103213.200.txt

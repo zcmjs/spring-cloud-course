@@ -9,3 +9,13 @@ spring:
           filters:
             - RewritePath=/api/test(?<segment>.*), $\{segment}
             - RewriteLocationResponseHeader=AS_IN_REQUEST, Location, localhost:8080/api/test
+
+
+#spring:
+#  cloud:
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
+
+#gdy chcemy wlaczyc defaultowo wyszukiwanie po nazwie serwisu zarejestrowanej w eurece
